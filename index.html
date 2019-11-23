@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html >
+<head lang="ua">
+	<meta charset="UTF-8">
+	<title>Weather</title>
+	<script src="Script.js"></script>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body >
+	<header class="header">
+		<h1>Weather for each city</h1>
+	</header>
+	<form onsubmit="submitFunction(event)">
+		<input type="text" oninput="buttonChangeFunc()" id="cityName" class="formItem growTwo" placeholder="Enter name of city" />
+		<input id="submitButton" disabled="true" type="submit" class="formItem growOne" value="Search"/>
+		<input  id="clearButton" type="reset" onclick="clearFunc()" class="formItem growOne" value="Clear"/>
+	</form>
+
+	
+	<div class="main" >
+	<div class="name" id="name"></div>
+	<div class="info">
+			<img class="column growOne" id="icon"></img>
+  			<div class="column growTwo" id="temperature"></div>
+  			<div class="column growTwo" id="weather"></div>
+	</div>
+
+	</div>
+	
+</body>
+</html>

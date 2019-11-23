@@ -1,0 +1,83 @@
+html { 
+  background: url(http://cdn.magdeleine.co/wp-content/uploads/2014/05/3jPYgeVCTWCMqjtb7Dqi_IMG_8251-1400x933.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  font-family:"Bradley Hand", cursive;
+  overflow:auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin:0;
+}
+
+
+form{
+padding: 0 20vw;
+font-family:"Bradley Hand", cursive;
+display:flex;
+	justify-content: center;
+	align-items: center;
+
+}
+/* Style the header */
+.header {
+  background-color: rgba(127,127,127,0.6);
+  padding: 0.5%;
+  text-align: center;
+  margin:0;
+}
+.formItem{
+	border-radius: 10px;
+}
+#clearButton{
+	 display:none;
+}
+#cityName{
+	padding-left: 1vw;
+}
+.main
+{
+	border-right:4px groove black;
+	border-bottom:4px groove black;
+	background-color: rgba(220,220,220,0.3);
+	margin-left: 20vw;
+	margin-right: 20vw;
+	display:none;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
+.info{
+	display:flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 15px;
+}
+.column{
+	text-align: center;
+	padding: 0 1vw;
+}
+#temperature{
+	font-size:1.5em;
+}
+
+.name{
+	 width: 100%;
+	 text-align: center;
+	padding: 2vw;
+	font-size:2em;
+}
+.growOne{
+	flex-grow:1;
+}
+.growZero{
+	flex-grow:0;
+}
+.growTwo{
+	flex-grow:2;
+}
